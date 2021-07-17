@@ -1,0 +1,1241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 250vh;
+}
+
+.header{
+    width: 100%;
+    height: 75px;
+}
+
+.header ul{
+    float: right;
+    margin-right: 425px;
+}
+
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    height: 75px;
+    line-height: 75px;
+}
+
+.header ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.header ul li a:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.main img{
+    width: 100%;
+}
+
+.header .location{
+    position: absolute;
+    top: 6%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.header h3{
+    position: absolute;
+    top: 6%;
+    left: 81%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.header h3:hover{
+    text-decoration: underline black 1px;
+    cursor: pointer;
+}
+
+.header .search{
+    position: absolute;
+    top: 6%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.header h4{
+    position: absolute;
+    top: 6%;
+    left: 93%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.header h4:hover{
+    text-decoration: underline black 1px;
+    cursor: pointer;
+}
+
+.content{
+    background-color: #ccc;
+    height:18%;
+ 
+}
+
+.content h3{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 1px;
+}
+
+.content p{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.content button{
+    width: 250px;
+    padding: 15px 20px;
+    margin: 25px 540px;
+    border: none;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.content button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.section h3{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.section img{ 
+    width: 50%;
+    float: left;
+    margin-top: -50px;
+    cursor: pointer;
+    border: 3px solid white;
+    margin-bottom: 50px;
+}
+
+.mainx h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.mainx{
+    width: 100%;
+    height: 145%;
+    background-color: grey;
+    margin-top: 120px;
+}
+
+.mainx img{
+    width: 25%;
+    float: left;
+    padding: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    border: none;
+}
+
+.mainx img:hover{
+    opacity: 0.8;
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.picture1{
+    margin: -300px 30px;
+}
+
+.picture1 h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.picture1 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.picture1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.picture1 a:hover{
+    opacity: 0.7;
+    text-decoration: underline white 1px;
+    transition: all 0.1s;
+}
+
+.picture2{
+    margin: -200px 365px;
+}
+
+.picture2 h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.picture2 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.picture2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.picture2 a:hover{
+    opacity: 0.7;
+    text-decoration: underline white 1px;
+    transition: all 0.1s;
+}
+
+.picture3{
+    position: absolute;
+    top: 555%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
+.picture3 h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.picture3 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.picture3 a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.picture3 a:hover{
+    opacity: 0.7;
+    text-decoration: underline white 1px;
+    transition: all 0.1s;
+}
+
+.picture4{
+    position: absolute;
+    top: 552%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+}
+
+.picture4 h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.picture4 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.picture4 a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.picture4 a:hover{
+    opacity: 0.7;
+    text-decoration: underline white 1px;
+    transition: all 0.1s;
+}
+
+.sectionx{
+    margin-top: 300px;
+    width: 90%;
+    margin-left: 100px;
+}
+
+.sectionx h3{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.sectionx p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.sectiony{
+    margin-top:-60px;
+    width: 100%;
+    margin-left: 400px;
+}
+
+.sectiony h3{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.sectiony p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.contentresim{
+    margin-top: 300px;
+}
+
+.contentresim h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 30px;  
+}
+
+.contentresim img{
+    width: 50%;
+    float: left;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+.contentresim img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.contentyazı h3{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin-left: 30px;
+}
+
+.contentyazı h4{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 20px 30px;
+}
+
+.contentyazı a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    opacity: 0.9;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.contentyazı a:hover{
+    text-decoration: underline black 1px;
+    cursor: pointer;
+}
+
+.contentyazıx{
+    position: absolute;
+    top: 678%;
+    left: 62%;
+    transform: translate(-50%,-50%);
+}
+
+.contentyazıx h3{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin-left: 30px;
+}
+
+.contentyazıx h4{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 20px 30px;
+}
+
+.contentyazıx a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    opacity: 0.9;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.contentyazıx a:hover{
+    text-decoration: underline black 1px;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    height: 70%;
+    background-color: gray;
+    margin-top: 100px;
+}
+
+.footer h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footer ul{
+    margin: -90px 100px;
+}
+
+.footer ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footer1{
+    position: absolute;
+    top: 713%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.footer1 h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footer1 ul{
+    margin: -90px 100px;
+}
+
+.footer1 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer1 ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer1 ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footer2{
+    position: absolute;
+    top: 750%;
+    left: 35.8%;
+    transform: translate(-50%,-50%);
+}
+
+.footer2 h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footer2 ul{
+    margin: -90px 100px;
+}
+
+.footer2 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer2 ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer2 ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footer3{
+    position: absolute;
+    top: 790%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.footer3 h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footer3 ul{
+    margin: -90px 100px;
+}
+
+.footer3 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer3 ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer3 ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footer4{
+    position: absolute;
+    top: 820%;
+    left: 34.3%;
+    transform: translate(-50%,-50%);
+}
+
+.footer4 h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footer4 ul{
+    margin: -90px 100px;
+}
+
+.footer4 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer4 ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer4 ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footer5{
+    position: absolute;
+    top: 713%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.footer5 h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footer5 ul{
+    margin: -90px 100px;
+}
+
+.footer5 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer5 ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer5 ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footer6{
+    position: absolute;
+    top: 750%;
+    left: 54%;
+    transform: translate(-50%,-50%);
+}
+
+.footer6 h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footer6 ul{
+    margin: -90px 100px;
+}
+
+.footer6 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer6 ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer6 ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footer7{
+    position: absolute;
+    top: 780%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.footer7 h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footer7 ul{
+    margin: -90px 100px;
+}
+
+.footer7 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer7 ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer7 ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footer8{
+    position: absolute;
+    top: 810%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+
+.footer8 h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footer8 ul{
+    margin: -90px 100px;
+}
+
+.footer8 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer8 ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footer8 ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footerx{
+    position: absolute;
+    top: 710%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+}
+
+.footerx h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footerx ul{
+    margin: -90px 100px;
+}
+
+.footerx ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footerx ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footerx ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footery{
+    position: absolute;
+    top: 750%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+}
+
+.footery h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footery ul{
+    margin: -90px 100px;
+}
+
+.footery ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footery ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footery ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.footerl{
+    position: absolute;
+    top: 790%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+}
+
+.footerl h3{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 100px 100px;
+}
+
+.footerl ul{
+    margin: -90px 100px;
+}
+
+.footerl ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footerl ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.footerl ul li a:hover{
+    text-decoration: underline white 1px;
+}
+
+.social-bar{
+    position: absolute;
+    top: 720%;
+    left: 88%;
+    transform: translate(-50%,-50%);
+}
+
+.social-bar h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.social-bar i{
+    font-size: 28px;
+    color: white;
+    margin: 0 5px;
+    margin-top: 20px;
+}
+
+.social-bar i:hover{
+    transition: all 0.4s;
+    transform: scale(1)
+    rotate(360deg);  
+}
+
+.nav{
+    position: absolute;
+    top: 875%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    background-color: white;
+    height: 20vh;
+}
+
+.nav ul{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav ul li a{
+    color: black;
+    opacity: 0.9;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    text-decoration: underline black 1px;
+}
+
+.footeryazı{
+    position: absolute;
+    top: 865%;
+    left: 22.2%;
+    transform: translate(-50%,-50%);
+}
+
+.footeryazı h3{
+    color: black;
+    opacity: 0.7;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    word-spacing: 3px;
+    margin-top: 200px;
+}
+
+.footeryazı h4{
+    color: black;
+    opacity: 0.7;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: underline;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
